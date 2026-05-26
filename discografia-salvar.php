@@ -5,8 +5,6 @@ $ano = $_POST['ano'];
 $tipo = $_POST['tipo'];
 $foto = $_POST['foto'];
  
-
-
 $conexao = mysqli_connect("localhost", "root", "", "db_spotify");
 if(!$conexao){
     echo "erro";
