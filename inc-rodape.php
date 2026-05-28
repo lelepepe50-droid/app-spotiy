@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $titulo_da_pagina ?></title>
-    <link rel="stylesheet" href="style.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons">
-</head>
-</html>
+<footer class="bg-dark p-3 text-center text-light fw-light mt-5">
+    <p class="pt-2"> leandro andrade - lelepepe50@gmail.com</p>
+    <br>
+        <a href="https://github.com/AkaliSmoke" target="_blank"><i class="bi bi-github text-light m-2"></i></a>
+        <a href="https://linkedin.com/in/kaio-mascarenhas-4425b9384" target="_blank"><i class="bi bi-linkedin text-light m-2"></i></a>
+</footer>

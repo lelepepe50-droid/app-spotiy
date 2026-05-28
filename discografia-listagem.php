@@ -14,13 +14,13 @@ include "inc-cabecalho.php";
 
         <div class="row">
          <div class="col">
-            <table>
+            <table class="table table-success table-striped">   
                 <tr>
-                <td>ID</td>
-                <td>Artista</td>
-                <td>Nome do album</td>
-                <td>Ano</td>
-                <td>Tipo</td>
+                <th>ID</th>
+                <th>Artista</th>
+                <th>Nome do album</th>
+                <th>Ano do Lançamento</th>
+                <th>Tipo</th>
                 </tr>
                 <?php
                 #abrir conexão
@@ -35,7 +35,9 @@ include "inc-cabecalho.php";
                     echo "<tr>";
                     echo "<td> {$linha_resultado['id']} </td>";
                     echo "<td> {$linha_resultado['artista']} </td>";
-                    echo "<td> {$linha_resultado['nome']} </td>";
+
+                  echo "<td> <a href='discografia-visualizar.php?id={$linha_resultado['id']}'> {$linha_resultado['nome']} </a> </td> ";
+
                     echo "<td> {$linha_resultado['ano']} </td>";
                     echo "<td> {$linha_resultado['tipo']} </td>";
                     echo "</tr>";
